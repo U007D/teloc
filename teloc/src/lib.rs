@@ -59,7 +59,7 @@
 
 #[cfg(feature = "actix-support")]
 mod actix_support;
-mod container;
+pub mod container;
 mod dependency;
 mod get_dependencies;
 mod index;
